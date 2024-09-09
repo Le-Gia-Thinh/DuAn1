@@ -1,0 +1,14 @@
+D:\C#\CodeGym\BaiTapC#\DuAn1\bin\Debug\net8.0\DuAn1.exe
+D:\C#\CodeGym\BaiTapC#\DuAn1\bin\Debug\net8.0\DuAn1.deps.json
+D:\C#\CodeGym\BaiTapC#\DuAn1\bin\Debug\net8.0\DuAn1.runtimeconfig.json
+D:\C#\CodeGym\BaiTapC#\DuAn1\bin\Debug\net8.0\DuAn1.dll
+D:\C#\CodeGym\BaiTapC#\DuAn1\bin\Debug\net8.0\DuAn1.pdb
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.AssemblyInfoInputs.cache
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.AssemblyInfo.cs
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.csproj.CoreCompileInputs.cache
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.dll
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\refint\DuAn1.dll
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.pdb
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.genruntimeconfig.cache
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\ref\DuAn1.dll
