@@ -12,3 +12,4 @@ D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\refint\DuAn1.dll
 D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.pdb
 D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.genruntimeconfig.cache
 D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\ref\DuAn1.dll
+D:\C#\CodeGym\BaiTapC#\DuAn1\obj\Debug\net8.0\DuAn1.sourcelink.json

@@ -23,6 +23,13 @@ namespace DuAn1
         {
             Point head = body[0];
             Point newHead = new Point(head.X + direction.X, head.Y + direction.Y);
+
+            // Nếu rắn chạm tường, di chuyển từ phía bên kia
+            if (newHead.X < 0) newHead.X = 41;
+            if (newHead.X > 41) newHead.X = 0;
+            if (newHead.Y < 0) newHead.Y = 41;
+            if (newHead.Y > 41) newHead.Y = 0;
+
             body.Insert(0, newHead);
             body.RemoveAt(body.Count - 1); // Di chuyển: thêm đầu, bỏ đuôi
         }
@@ -50,12 +57,6 @@ namespace DuAn1
                     if (direction.Y != 1) direction = new Point(0, -1);
                     break;
             }
-        }
-
-        public bool IsCollisionWithWall(Wall wall)
-        {
-            Point head = body[0];
-            return (head.X == 0 || head.X == wall.Width - 1 || head.Y == 0 || head.Y == wall.Height - 1);
         }
 
         public bool IsCollisionWithSelf()

@@ -37,15 +37,15 @@ namespace DuAn1
 
         private void DrawInitial()
         {
-            wall.Draw(); // Vẽ tường chỉ một lần
-            food.Draw(); // Vẽ mồi chỉ một lần
+            wall.Draw(); // Vẽ tường
+            food.Draw(); // Vẽ mồi
         }
 
         private void Update()
         {
             snake.Move();
 
-            if (snake.IsCollisionWithWall(wall) || snake.IsCollisionWithSelf())
+            if (snake.IsCollisionWithSelf())
             {
                 Thread.Sleep(500); // Tốc độ chậm lại trước khi kết thúc
                 gameOver = true;
