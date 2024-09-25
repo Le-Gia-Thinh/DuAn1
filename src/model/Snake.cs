@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace DuAn1
+namespace DuAn1.Models
 {
-    class Snake : GameObject
+    public class Snake
     {
         private List<Point> body;
         private Point direction;
@@ -16,7 +16,7 @@ namespace DuAn1
                 new Point(19, 20),
                 new Point(18, 20)
             };
-            direction = new Point(1, 0); // Ban đầu di chuyển sang phải
+            direction = new Point(1, 0);
         }
 
         public void Move()
@@ -24,36 +24,35 @@ namespace DuAn1
             Point head = body[0];
             Point newHead = new Point(head.X + direction.X, head.Y + direction.Y);
 
-            // Nếu rắn chạm tường, di chuyển từ phía bên kia
             if (newHead.X < 0) newHead.X = 41;
             if (newHead.X > 41) newHead.X = 0;
             if (newHead.Y < 0) newHead.Y = 41;
             if (newHead.Y > 41) newHead.Y = 0;
 
             body.Insert(0, newHead);
-            body.RemoveAt(body.Count - 1); // Di chuyển: thêm đầu, bỏ đuôi
+            body.RemoveAt(body.Count - 1);
         }
 
         public void Grow()
         {
             Point tail = body[body.Count - 1];
-            body.Add(tail); // Thêm vào cuối thân
+            body.Add(tail);
         }
 
         public void ChangeDirection(ConsoleKey key)
         {
             switch (key)
             {
-                case ConsoleKey.LeftArrow: // Trái
+                case ConsoleKey.LeftArrow:
                     if (direction.X != 1) direction = new Point(-1, 0);
                     break;
-                case ConsoleKey.RightArrow: // Phải
+                case ConsoleKey.RightArrow:
                     if (direction.X != -1) direction = new Point(1, 0);
                     break;
-                case ConsoleKey.DownArrow: // Xuống
+                case ConsoleKey.DownArrow:
                     if (direction.Y != -1) direction = new Point(0, 1);
                     break;
-                case ConsoleKey.UpArrow: // Lên
+                case ConsoleKey.UpArrow:
                     if (direction.Y != 1) direction = new Point(0, -1);
                     break;
             }
@@ -76,13 +75,6 @@ namespace DuAn1
             return (head.X == food.Position.X && head.Y == food.Position.Y);
         }
 
-        public override void Draw()
-        {
-            foreach (var point in body)
-            {
-                Console.SetCursorPosition(point.X, point.Y);
-                Console.Write('*');
-            }
-        }
+        public List<Point> GetBody() => body;
     }
 }

@@ -1,6 +1,6 @@
-namespace DuAn1
+namespace DuAn1.Models
 {
-    class Point
+    public class Point
     {
         public int X { get; set; }
         public int Y { get; set; }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\CodeGym\\BaiTapC#\\DuAn1\\DuAn1.csproj": {}
+    "D:\\Workspace\\C#\\CodeGym\\BaiTapC#\\DuAn1\\DuAn1.csproj": {}
   },
   "projects": {
-    "D:\\C#\\CodeGym\\BaiTapC#\\DuAn1\\DuAn1.csproj": {
+    "D:\\Workspace\\C#\\CodeGym\\BaiTapC#\\DuAn1\\DuAn1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\CodeGym\\BaiTapC#\\DuAn1\\DuAn1.csproj",
+        "projectUniqueName": "D:\\Workspace\\C#\\CodeGym\\BaiTapC#\\DuAn1\\DuAn1.csproj",
         "projectName": "DuAn1",
-        "projectPath": "D:\\C#\\CodeGym\\BaiTapC#\\DuAn1\\DuAn1.csproj",
+        "projectPath": "D:\\Workspace\\C#\\CodeGym\\BaiTapC#\\DuAn1\\DuAn1.csproj",
         "packagesPath": "C:\\Users\\Legia\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\CodeGym\\BaiTapC#\\DuAn1\\obj\\",
+        "outputPath": "D:\\Workspace\\C#\\CodeGym\\BaiTapC#\\DuAn1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Legia\\AppData\\Roaming\\NuGet\\NuGet.Config"
