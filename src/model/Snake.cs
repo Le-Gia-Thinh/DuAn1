@@ -39,7 +39,7 @@ namespace DuAn1.Models
             body.Add(tail);
         }
 
-        public void ChangeDirection(ConsoleKey key)
+        public void ChangeDirection(ConsoleKey key) // nhần phím để di chuyển rắn
         {
             switch (key)
             {
@@ -58,7 +58,7 @@ namespace DuAn1.Models
             }
         }
 
-        public bool IsCollisionWithSelf()
+        public bool IsCollisionWithSelf() // rắn tư c
         {
             Point head = body[0];
             for (int i = 1; i < body.Count; i++)

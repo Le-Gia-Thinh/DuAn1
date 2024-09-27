@@ -15,7 +15,7 @@ namespace DuAn1.Controllers
 
     public GameController()
     {
-        Console.SetWindowSize(42, 42);
+        Console.SetWindowSize(42, 42); // xét cửa sổ console cho hiển thị đầy đủ rắn
         Console.SetBufferSize(42, 42);
         InitializeGame(); // Gọi phương thức khởi tạo
     }
